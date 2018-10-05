@@ -1,0 +1,31 @@
+{
+    "name": "deva7mad/lumen-annotations",
+    "description": "Laravel Lumen route and event binding annotations generate",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "lumen annotations",
+        "laravel",
+        "route",
+        "event",
+        "generate",
+        "annotations"
+    ],
+    "authors": [
+        {
+            "name": "Ahmad Elkenany",
+            "email": "dev.elknany@gmail.com",
+	    "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "doctrine/annotations": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevA7mad\\Annotations\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
