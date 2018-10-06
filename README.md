@@ -4,7 +4,7 @@
 
 This package enables annotations in Laravel Lumen to define routes and event bindings.
 
-## Installation
+## Installation 
 
 Lumen Annotations is distributed as a composer package. So you first have to run the following command
 
