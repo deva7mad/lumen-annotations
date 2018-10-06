@@ -12,14 +12,14 @@ class ClassFinder
     /**
      * The class finder instance.
      *
-     * @var \Illuminate\Filesystem\ClassFinder
+     * @var \DevA7mad\Annotations\ClassFinder
      */
     protected $finder;
 
     /**
      * Create a new metadata builder instance.
      *
-     * @param \Illuminate\Filesystem\ClassFinder $finder
+     * @param \DevA7mad\Annotations\ClassFinder $finder
      * @param array $config
      * @return void
      */

@@ -4,7 +4,7 @@ namespace DevA7mad\Annotations\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use DevA7mad\Annotations\Metadata\ClassFinder;
-use Illuminate\Filesystem\ClassFinder as FilesystemClassFinder;
+use DevA7mad\Annotations\ClassFinder as FilesystemClassFinder;
 use DevA7mad\Annotations\Metadata\AnnotationLoader;
 use Doctrine\Common\Annotations\AnnotationReader;
 
