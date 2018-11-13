@@ -154,3 +154,8 @@ Bugs and feature requests are tracked on [GitHub](https://github.com/deva7mad/lu
 
 This package is released under the [MIT License](LICENSE).
 
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/deva7mad/lumen-annotations/badge.svg?style=beer-square)](https://beerpay.io/deva7mad/lumen-annotations)  [![Beerpay](https://beerpay.io/deva7mad/lumen-annotations/make-wish.svg?style=flat-square)](https://beerpay.io/deva7mad/lumen-annotations?focus=wish)
