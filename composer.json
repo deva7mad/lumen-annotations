@@ -15,12 +15,13 @@
         {
             "name": "Ahmad Elkenany",
             "email": "dev.elknany@gmail.com",
-	    "role": "Software Engineer"
+            "role": "Software Engineer"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "doctrine/annotations": "~1.6"
+        "doctrine/annotations": "~1.6",
+        "laravel/lumen-framework": "^5.5"
     },
     "autoload": {
         "psr-4": {

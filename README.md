@@ -24,10 +24,10 @@ $app->register(DevA7mad\Annotations\AnnotationsServiceProvider::class);
 
 ##### Include generated routes
 
-Once you have run `php artisan route:scan` (NOTE: see below Examples), you have to include the generated `routes.php` file in your `bootstrap/app.php` file:
+Once you have run `php artisan route:scan` (NOTE: see below Examples), you have to include the generated `generated.php` file in your `bootstrap/app.php` file:
 
 ```php
-require __DIR__.'/../storage/framework/routes.php';
+require __DIR__.'/../routes/generated.php';
 ```
 
 ## Usage

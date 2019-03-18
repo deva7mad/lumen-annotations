@@ -79,7 +79,7 @@ class Generator
      * Generate routes from metadata.
      *
      * @param array $metadata
-     * @return void
+     * @return string
      */
     public function generateRoutes($metadata)
     {
@@ -111,7 +111,7 @@ class Generator
                 // uses option
                 $options[] = "'uses' => '".$routeMetadata['controller']."@".$routeMetadata['controllerMethod']."'";
 
-                $contents .= "\$app->".strtolower($routeMetadata['httpMethod'])."('".$routeMetadata['uri']."', [".implode(", ", $options)."]);" . PHP_EOL;
+                $contents .= "\$router->".strtolower($routeMetadata['httpMethod'])."('".$routeMetadata['uri']."', [".implode(", ", $options)."]);" . PHP_EOL;
             }
         }
 
